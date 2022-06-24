@@ -1,0 +1,71 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition: all .07s ease;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPressed {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+span {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr min-content;
+}
+
+
+.counterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.counterGrid p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

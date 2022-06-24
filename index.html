@@ -2,5 +2,28 @@
 <head>
     <title>Rock Paper Scissors</title>
     <meta charset="UTF-8">
-    <script src="rps.js"></script>
+    <script defer src="rps.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <h1>A simple Rock Paper Scissors game</h1>
+    <h3>Made for The Odin Project</h3>
+    <div class ="buttonsDiv">
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissors">SCISSORS</button>
+        <button id="reload">NEW ROUND</button>
+    </div>
+    <div id = "resultsDiv">
+        <h2>Results</h2>
+        <div class = "counterGrid">
+            <p>Player</p>
+            <p>Tie</p>
+            <p>Computer</p>
+            <p id = "playerCounter">0</p>
+            <p id = "tieCounter">0</p>
+            <p id = "computerCounter">0</p>
+        </div>
+        <div class= "grid-container"></div>
+    </div>
+</body>
